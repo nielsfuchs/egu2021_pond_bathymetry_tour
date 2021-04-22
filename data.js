@@ -311,9 +311,10 @@ var APP_DATA = {
           "title": "Refraction correction I<br>",
           "text": "Photogrammetry relies on colinearity of intersection lines. Refraction at the air-water interface bends the beam lines and causes horizontal and vertical translation of intersection points. "+
 			"We developed a two step correction method to minimize the impact on the pond depth estimation. <br>"+
-			"I: Images are masked to a maximum incident angle of 40° at the ground to keep horizontal mismatch between intersection lines below ground resolution:<br>"+
+			"I: Images are masked to a maximum incident angle of 40° at the ground to keep horizontal mismatch between intersection lines below ground resolution.<br>"+
+			"The impact can be expressed by the relation between deviation and pond depth, we call it k. k depends on the incident angle of the different camera positions to the intersection point: <br>"
 			"<img source src='img/kappa_colinearity_correction.png'></img><br>"+
-			"k is the fraction between horizontal deviation and pond depth. Keeping it below 0.028 means the horizontal deviation becomes max. 2.8cm for 1m deep ponds.<br>"
+			"Keeping k below 0.028 means the horizontal deviation becomes max. 2.8cm for 1m deep ponds and remains therefore below the ground resolution.<br>"
 		}
 ,
         {
