@@ -445,7 +445,7 @@ var APP_DATA = {
           "yaw": -2.296239979216651,
           "pitch": -0.10388348329431629,
           "title": "<div>Start again?</div>",
-          "text": "Good luck! ;)"
+          "text": "Good luck! ;)<br>"
         },
         {
           "yaw": 2.092425452758481,
