@@ -380,7 +380,7 @@ var APP_DATA = {
           "yaw": 0.7200742573468517,
           "pitch": 0.05602653291901305,
           "title": "Accuracy",
-          "text": "<img source src='img/Accuracy.png'></img><br>Pond bathymetry estimation compared to all in situ observations from a clear sky and a cloudy day. "+
+          "text": "<img source src='img/accuracy.png'></img><br>Pond bathymetry estimation compared to all in situ observations from a clear sky and a cloudy day. "+
 			"Point size is proportional to pond size. The greatest relative error is found in the three tiny ponds at 10 cm. <br>"+
 			"All in situ points were located towards the center parts of the ponds, at the edge the accuracy is probably slightly lower. "+
 			"The reason is that the elevation model is an estimated and smoothed reconstruction of the ice surface in which sharp edges, "+
