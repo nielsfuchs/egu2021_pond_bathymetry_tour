@@ -297,7 +297,8 @@ var APP_DATA = {
 			"but are by now powerful enough to trace intersection points even at the bottom of clear shallow waters. "+
 			"However, refraction at the water surface is not taken into account in such automated calculations and must be considered manually. "+
 			"We have developed a 2-step correction method as a convenient extension to the largely automated workflow (see next box). "+
-			"The pond bathymetry eventually results from the vertical distance between corrected topography of the pond bottom and previously retrieved pond water level.<br>"
+			"The pond bathymetry eventually results from the vertical distance between corrected topography of the pond bottom and previously retrieved pond water level.<br>"+
+			"From this step onwards, all ponds are displayed with their depth layer, the corresponding colormap is linked further to the right."
         },
         {
           "yaw": 1.5586529486720426,
@@ -312,7 +313,7 @@ var APP_DATA = {
           "text": "Photogrammetry relies on colinearity of intersection lines. Refraction at the air-water interface bends the beam lines and causes horizontal and vertical translation of intersection points. "+
 			"We developed a two step correction method to minimize the impact on the pond depth estimation. <br>"+
 			"I: Images are masked to a maximum incident angle of 40° at the ground to keep horizontal mismatch between intersection lines below ground resolution.<br>"+
-			"The impact can be expressed by the relation between deviation and pond depth, we call it k. k depends on the incident angle of the different camera positions to the intersection point: <br>"
+			"The impact can be expressed by the relation between deviation and pond depth, we call it k. k depends on the incident angle of the different camera positions to the intersection point: <br>"+
 			"<img source src='img/kappa_colinearity_correction.png'></img><br>"+
 			"Keeping k below 0.028 means the horizontal deviation becomes max. 2.8cm for 1m deep ponds and remains therefore below the ground resolution.<br>"
 		}
