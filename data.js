@@ -38,6 +38,7 @@ var APP_DATA = {
           "pitch": -0.11529164298455896,
           "title": "Welcome to the 360 degree pond bathymetry study tour<br>",
           "text": "Along the red line, we explain how pond depth can be determined from aerial photo data using photogrammetry. "+
+			"Every red cone marks one step on your tour. "+
             "Use the arrows to navigate from pond to pond "+
             "or select the processing step from the list in the top left corner. <br>"+
 			"Use this overview to briefly familiarise yourself with the location, with the control in the 360 images and to perceive the dimensions based on the people in the picture.<br>"
