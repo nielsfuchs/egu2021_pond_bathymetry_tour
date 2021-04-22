@@ -41,7 +41,8 @@ var APP_DATA = {
 			"Every red cone marks one step on your tour. "+
             "Use the arrows to navigate from pond to pond "+
             "or select the processing step from the list in the top left corner. <br>"+
-			"Use this overview to briefly familiarise yourself with the location, with the control in the 360 images and to perceive the dimensions based on the people in the picture.<br>"
+			"Use this overview to briefly familiarise yourself with the location, the control in the 360 images and to perceive the dimensions based on the people located below you.<br>"+
+			"The study site is about 50m x 50m large, the tallest ridge about 2m high.<br>"
         }
       ]
     },
@@ -135,7 +136,7 @@ var APP_DATA = {
           "pitch": 0.27363668167892996,
           "title": "Aerial images<br>",
           "text": "Aerial images were recorded with a consumer grade CANON camera (14mm lens) mounted nadir on a helicopter.<br>"+
-			"The typical ground resolution is between 5 and 10cm.<br>"
+			"The typical ground resolution of the setup range between 5 and 10cm.<br>"
         },
         {
           "yaw": 0.9463675752566179,
