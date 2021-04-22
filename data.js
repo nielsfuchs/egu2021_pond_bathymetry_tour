@@ -120,7 +120,7 @@ var APP_DATA = {
         {
           "yaw": -2.754197270531101,
           "pitch": 0.09780735630160109,
-          "rotation": 5.497787143782138,
+          "rotation": 2.35278,
           "target": "1-i-study-site"
         },
         {
@@ -176,7 +176,7 @@ var APP_DATA = {
         {
           "yaw": 2.0264855621984683,
           "pitch": 0.6461202734836533,
-          "rotation": 5.497787143782138,
+          "rotation": 2.35278,
           "target": "2-ii-aerial-images-of-ponds"
         },
         {
@@ -192,7 +192,7 @@ var APP_DATA = {
           "pitch": 0.09289539394356083,
           "title": "Photogrammetric reconstruction<br>",
           "text": "A parallel flight grid provides overlap between images to realistically reconstruct the surface using photogrammetric triangulation (ideally 80% forward, 60% lateral overlap). "+
-			"The full-colour images are stitched together and projected onto the surface as an orthomosaic. We use Agisoft Metashape for this processing and correct for offsets caused by the continuous ice drift."+
+			"The full-colour images are stitched together and projected onto the surface as an orthomosaic. We use Agisoft Metashape for this processing and correct for offsets caused by the continuous ice drift. "+
 			"Ground control points were not available for the model, but a laid out 2x2m pattern was used in the processing to scale the surface correctly (±1%).<br>"
         }
       ]
@@ -225,7 +225,7 @@ var APP_DATA = {
         {
           "yaw": -2.730399944322894,
           "pitch": 0.13505280368067218,
-          "rotation": 0.7853981633974483,
+          "rotation": 3.93039,
           "target": "3-iii-elevation-model"
         },
         {
@@ -248,7 +248,7 @@ var APP_DATA = {
           "title": "Pond water level<br>",
           "text": "Framing the pond polygon outline in the elevation model yields the pond water level for each pond individually.<br><br>"+
 			"<img source src='img/outline.png'></img><br>"+
-			"The deviation of the pond outline in the elevation model from the retrieved averaged pond water level is mainly below ±2cm.<br>"
+			"Shown is the vertical deviation of the raster points along the pond outline in the elevation model. It is mainly below ±2cm.<br>"
         }
       ]
     },
@@ -280,7 +280,7 @@ var APP_DATA = {
         {
           "yaw": -1.6042086912981421,
           "pitch": 0.2280597764661465,
-          "rotation": 0.7853981633974483,
+          "rotation": 3.93039,
           "target": "4-iv-pond-detection"
         },
         {
@@ -358,7 +358,7 @@ var APP_DATA = {
         {
           "yaw": -0.14169750984480523,
           "pitch": 0.18354115584696196,
-          "rotation": 5.497787143782138,
+          "rotation": 2.35278,
           "target": "5-v-pond-bathymetry"
         },
         {
@@ -382,7 +382,7 @@ var APP_DATA = {
           "title": "Accuracy",
           "text": "<img source src='img/Accuracy.png'></img><br>Pond bathymetry estimation compared to all in situ observations from a clear sky and a cloudy day. "+
 			"Point size is proportional to pond size. The greatest relative error is found in the three tiny ponds at 10 cm. <br>"+
-			"All in situ points were rather located towards the center parts of the ponds, at the edge the accuracy is probably slightly lower. "+
+			"All in situ points were located towards the center parts of the ponds, at the edge the accuracy is probably slightly lower. "+
 			"The reason is that the elevation model is an estimated and smoothed reconstruction of the ice surface in which sharp edges, "+
 			"such as those that sometimes occur at the edges of ponds, are unlikely to be resolved.<br>"
         }
@@ -416,7 +416,7 @@ var APP_DATA = {
         {
           "yaw": 0.620629735974429,
           "pitch": 0.2564385816575978,
-          "rotation": 2.356194490192345,
+          "rotation": 5.50119,
           "target": "6-vi-evaluation"
         },
         {
