@@ -478,7 +478,7 @@ var APP_DATA = {
 			" - accuracy independend of pond color, size and irradiance conditions (with few exceptions listed below)<br><br>"+
 			"Cons:<br><br>"+
 			" - requires dedicated survey flight pattern with great forward and lateral overlap of images<br>"+
-			" - water depth must not be too great in comparison to the image resolution (e.g. 2m limit for 5.6cm ground resolution)<br>"
+			" - water depth must not be too great in comparison to the image resolution (e.g. 2m limit for 5.6cm ground resolution)<br>"+
 			" - reconstructed surface inaccurate towards pond edges<br>"+
 			" - local depression of very small ponds (approx. <10x ground resolution) are not resolved in the elevation model<br>"+
 			" - pond bottom needs to have some recognisable structure (fulfilled in all our test studies)<br>"+
