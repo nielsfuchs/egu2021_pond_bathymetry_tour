@@ -462,7 +462,7 @@ var APP_DATA = {
 			"With regular grid surveys as flown over the MOSAiC expedition Central Observatory, the whole pond system of the floe can be resolved in four dimensions: "+
 			"horizontally, vertically and with time. <br><br>"+
 			"<div><img source src='img/mosaic_size.png'></img><img source src='img/mosaic_level.png'></img><img source src='img/mosaic_depth.png'></img></div>"+
-			"Pond size, pond water level and pond depth recorded on the MOSAiC floe on 30 June 2020 using photogrammetry.<br><br>"+
+			"Pond size, pond water level and pond depth measured on the MOSAiC floe on 30 June 2020 using photogrammetry.<br><br>"+
 			"For more MOSAiC data and a comparison to other methods please visit EGU21-12860 (Linhard et al.) on Friday 30 April.<br>"+
 			"A publication about the study presented here is in preparation.<br>"
         },
