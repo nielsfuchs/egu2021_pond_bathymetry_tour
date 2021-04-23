@@ -41,8 +41,7 @@ var APP_DATA = {
 			"Every red cone marks one step on your tour. "+
             "Use the arrows to navigate from pond to pond "+
             "or select the processing step from the list in the top left corner. <br>"+
-			"Use this overview to briefly familiarise yourself with the location, the control in the 360 images and to perceive the dimensions based on the people located below you.<br>"+
-			"The study site is about 50m x 50m large, the tallest ridge about 2m high.<br>"
+			"Use this overview to briefly familiarise yourself with the location, the control in the 360 images and to perceive the dimensions based on the people located below you.<br>"
         }
       ]
     },
@@ -87,8 +86,10 @@ var APP_DATA = {
 			  "Tethered to the floe with the ship, we can both measure airborne and simultaneously collect ground-truth data around and in the ponds.<br>"+
             "The study site is located in between a rafted ice zone, where deformation has caused ice to submerge. "+
             "As a result, numerous ponds of different colours have formed. They are neither visually nor geometrically different from melt ponds "+
-            "and yield a perfect study site for aerial remote sensing of pond depth as shown with a spectral method in König et al. (2020)."+
-            "<br>"
+            "and yield a perfect study site for aerial remote sensing of pond depth as shown with a spectral method in König et al. (2020). <br>"+
+            "<br>"+
+			"The study site from above:<br>"+
+			  "<img source src='img/floemap.png'></img><br>"
           }
       ]
     },
@@ -136,7 +137,10 @@ var APP_DATA = {
           "pitch": 0.27363668167892996,
           "title": "Aerial images<br>",
           "text": "Aerial images were recorded with a consumer grade CANON camera (14mm lens) mounted nadir on a helicopter.<br>"+
-			"The typical ground resolution of the setup range between 5 and 10cm.<br>"
+			"The typical ground resolution of the setup range between 5 and 10cm.<br>"+
+			"<br>"+
+			"The helicopter above the pond site:<br>"+
+			"<img source src='img/heli_sketch.png'></img><br>"
         },
         {
           "yaw": 0.9463675752566179,
@@ -374,7 +378,8 @@ var APP_DATA = {
           "pitch": 0.0763143667148718,
           "title": "<div>In situ measurements</div>",
           "text": "We collected in total 52 manual depth measurements (shown by the spheres) in 14 ponds on two days, one clear sky day shown here and one cloudy day with only diffuse irradiance. "+
-			"The exact localization of the ground truth data is challenging. To compensate for inaccuracies, we average the data within a radius of 30cm. <br>"
+			"The exact localization of the ground truth data is challenging. To compensate for inaccuracies, we average the data within a radius of 30cm. "+
+			"Pond depth ranged from 5cm to 40cm.<br>"
         },
         {
           "yaw": 0.7200742573468517,
@@ -437,7 +442,9 @@ var APP_DATA = {
           "yaw": -0.19871082850037602,
           "pitch": 0.09221244442795928,
           "title": "Takk for turen - thanks for the trip!<br>",
-          "text": "<div>Contact niels.fuchs@uni-hamburg.de for more information.</div><div><br></div><div>Acknowledgements:</div><div><br></div>"+
+          "text": "<div>Contact niels.fuchs@uni-hamburg.de for more information.</div><div><br></div>"+
+			"<div>The data was recorded during RV Polarstern cruise PS106/1 PASCAL (Grant-No. AWI_PS106/1_2-00)</div><div><br></div>"+
+			"<div>Acknowledgements:</div><div><br></div>"+
 			"<div>Many thanks to the wonderful open source communities behind QGIS, Blender and MarziPano, which were used to create this tour.<br></div>"+
 			"<div>Furthermore, special kudos to TomDee (MELLOWMESHER studio) for the great advice on 3D processing and illumination.<br></div>"
         },
@@ -464,7 +471,7 @@ var APP_DATA = {
           "pitch": 0.,
           "title": "Conclusion",
           "text": "Pros:<br><br>"+
-			" - high resolution and accurate pond bathymetry estimation (BIAS<1cm, RMSE=3.8cm)<br>"+
+			" - high resolution and accurate pond bathymetry estimation (BIAS<1cm, RMSE=3.8cm) based solely on aerial images taken with a consumer grade camera<br>"+
 			" - estimation of the whole pond bathymetry instead of single pond depth measurements<br>"+
 			" - coverage of large surfaces becomes possible to increase statistical robustness<br>"+
 			" - most probably applicable from any airborne platform including drones<br>"+
