@@ -137,7 +137,7 @@ var APP_DATA = {
           "pitch": 0.27363668167892996,
           "title": "Aerial images<br>",
           "text": "Aerial images were recorded with a consumer grade CANON camera (14mm lens) mounted nadir on a helicopter.<br>"+
-			"The typical ground resolution of the setup range between 5 and 10cm.<br>"+
+			"The typical ground resolution of the setup ranges between 5 and 10cm.<br>"+
 			"<br>"+
 			"The helicopter above the pond site:<br>"+
 			"<img source src='img/heli_sketch.png'></img><br>"
@@ -241,18 +241,20 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": 1.6155934390952194,
-          "pitch": 0.09212231340162802,
+          "yaw": 0.23659150370417414,
+          "pitch": 0.23354548237995942,
           "title": "Surface classification<br>",
           "text": "A surface type classification of ponds based on a Random Forest Classifier is used to detect ponds and derive pond polygons.<br>"
         },
         {
-          "yaw": 0.23659150370417414,
-          "pitch": 0.23354548237995942,
+          "yaw": 1.6155934390952194,
+          "pitch": 0.09212231340162802,
           "title": "Pond water level<br>",
           "text": "Framing the pond polygon outline in the elevation model yields the pond water level for each pond individually.<br><br>"+
-			"<img source src='img/outline.png'></img><br>"+
-			"Shown is the vertical deviation of the raster points along the pond outline in the elevation model. It is mainly below ±2cm.<br>"
+			"The blue area in this pond shows the derived imaginary water surface. It differs partially from the pond outline as can be seen below this info button due to height differences in the elevation model. "+
+			"A statistical analysis of the vertical deviation however shows, "+
+			"that for all ponds in this study except one, half of the raster points along the outline vary by less than ±2cm from the waterlevel. 99.3 % of the points are usually within ±5cm."+
+			"<img source src='img/outline.png'></img><br>"
         }
       ]
     },
